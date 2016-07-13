@@ -1,6 +1,5 @@
-﻿scene:
-    background:
-        color: '#353535'
+import:
+  - ../TOMBaseStyles/TOMDark.yaml
 
 cameras:
     perspective:
@@ -21,7 +20,6 @@ textures:
         sprites:
             # define sprites: [x origin, y origin, width, height]
             wikipedia: [0, 0, 16, 16]
-
 
 styles:
     buildings:
